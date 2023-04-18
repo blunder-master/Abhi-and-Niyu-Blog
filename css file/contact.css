@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inconsolata', monospace;
+}
+
+:root {
+    --background-yellow: #FFD93B;
+    ;
+}
+
+section {
+    background-color: var(--background-yellow);
+}
+
+.left {
+    width: 450px;
+    height: auto;
+    margin-top: 50px;
+    /* border: 2px solid black; */
+}
+
+.left img {
+    width: 400px;
+    height: auto;
+}
+
+.left h1 {
+    font-family: 'Lobster Two', cursive;
+}
+
+
+/* right -styling */
+
+.right {
+    width: 400px;
+    height: 426px;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.right h2 {
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    margin-bottom: 20px;
+    /* font-weight: ; */
+}
+
+.card {
+    width: 400px;
+}
